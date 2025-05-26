@@ -13,29 +13,44 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body>
-    <h1 class="mt-4 p-4 text-center">
+    <header class="bg-white shadow-sm p-3 mb-4">
+      <div class="container d-flex justify-content-between align-items-center">
+        <h1 class="h3 mb-0">Croissant Bakery</h1>
+        <nav>
+          <a class="me-3 text-decoration-none text-secondary" href="/index.html">Home</a>
+          <a class="me-3 text-decoration-none text-secondary" href="/photo.html">Photos</a>
+          <a class="text-decoration-none text-primary fw-bold" href="/contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+    <main class="container text-center">
+    <h2 class="display-5 mb-4">
       This is what we call a good croissant..
-    </h1>
+    </h2>
     <div class="text-center">
       <img
         src="style/croissant.png"
         alt="A delicius croissant"
-        class="img-fluid"
+        class="img-fluid mb-4"
       />
     </div>
-     <div class="container text-center mt-4">
+     <div>
        <a
-        class="btn btn-outline-primary m-2"
+        class="btn btn-outline-secondary m-2"
         href="/index.html" title="Homepage">
         Go to homepage</a
       >
 
       <a
-        class="btn btn-outline-primary m-2"
+        class="btn btn-outline-warning m-2"
         href="/contact.html"
         title="contact me"
         >Contact me</a
       >
     </div>
+    </main>
+        <footer class="mt-5 py-4 bg-white border-top text-center text-muted">
+      &copy; 2025 Croissant Bakery - Made with 🥐 in France 
+    </footer> 
   </body>
 </html>
